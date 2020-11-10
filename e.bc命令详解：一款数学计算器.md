@@ -14,6 +14,8 @@ bc 甚至可以称得上是一种编程语言了，它支持变量、数组、�
 
 ## 安装bc
 
+centos:
+
 ```bash
 yum -y install bc
 ```
@@ -23,7 +25,7 @@ yum -y install bc
 在终端输入 bc 命令，然后回车，就可以进入 bc：
 
 ```bash
-[root@localhost sh_scripts]# bc
+[]# bc
 bc 1.06.95
 Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
 This is free software with ABSOLUTELY NO WARRANTY.
@@ -244,8 +246,9 @@ EOF
 > print $m
 > EOF
 > )
-[c.biancheng.net]$ echo $n
+[]$ echo $n
 30
 ```
 
 如果有大量的数学计算，那么使用输入重定向就比较方便，因为数学表达式可以换行，写起来更加清晰明了。
+
